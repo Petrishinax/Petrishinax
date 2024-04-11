@@ -1,0 +1,11 @@
+kiwi - banana
+const sum = (a, b) => a + b;
+51,68,11,88,86,11,3,76,2,15,15,25,7,30,99,77,14,81,42,32,8,24,97,16,19,94,97,64,77,56,85,27,59,73,5 - 82,81,8,27,83,52,27,18,93,88,82,83,97,48,1,38,27,43,20,9,15,19,68,94,27,39,58,93,48,37,13,55,25,9,84,57,34,8,17,33,62,5,7,10,39,67,44,31,89,15,46,87,41,2,40
+
+const findAverage = numbers => numbers.reduce((sum, num) => sum + num, 0) / numbers.length;
+
+const findLargestNumber = numbers => Math.max(...numbers);
+const findLargestNumber = numbers => Math.max(...numbers);
+const truncateString = (str, maxLength) => str.length > maxLength ? `${str.slice(0, maxLength)}...` : str;
+const shuffleArray = array => array.sort(() => Math.random() - 0.5);
+const findLargestNumber = numbers => Math.max(...numbers);
