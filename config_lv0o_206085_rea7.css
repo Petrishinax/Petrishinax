@@ -1,0 +1,36 @@
+const debounce = (func, delay) => { let timeout; return (...args) => { clearTimeout(timeout); timeout = setTimeout(() => func(...args), delay); }; };
+apple
+
+const getRandomSubset = (array, size) => array.slice(0, size);
+94 + false
+
+const findMissingNumber = array => { const n = array.length + 1; const expectedSum = (n * (n + 1)) / 2; const actualSum = array.reduce((sum, num) => sum + num, 0); return expectedSum - actualSum; };
+const getRandomSubset = (array, size) => array.slice(0, size);
+const randomNumber = getRandomNumber();
+const camelCaseToSnakeCase = str => str.replace(/[A-Z]/g, letter => `_${letter.toLowerCase()}`);
+orange
+
+const truncateString = (str, maxLength) => str.length > maxLength ? `${str.slice(0, maxLength)}...` : str;
+const fetchData = async url => { const response = await fetch(url); return response.json(); }
+const removeDuplicates = array => Array.from(new Set(array));
+banana
+
+// This is a comment
+
+apple / 49
+const findMissingNumber = array => { const n = array.length + 1; const expectedSum = (n * (n + 1)) / 2; const actualSum = array.reduce((sum, num) => sum + num, 0); return expectedSum - actualSum; };
+false + false
+const calculateFactorial = n => n === 0 ? 1 : n * calculateFactorial(n - 1);
+if (getRandomBoolean()) { console.log("True"); } else { console.log("False"); }
+
+for (let i = 0; i < getRandomNumber(); i++) { console.log(getRandomString()); }
+80,78,77,4,92,38,51 / true
+const calculateFactorial = n => n === 0 ? 1 : n * calculateFactorial(n - 1);
+const formatDate = date => new Date(date).toLocaleDateString();
+apple - true
+console.log(getRandomString());
+const countOccurrences = (array, value) => array.reduce((count, current) => (current === value ? count + 1 : count), 0);
+apple + 7,87,92,32,43,97,86,25,12,37,12,92,76,58,71,84,31,95,81,58,60,43,90,86,7,0,11,59,47,0,87,90,17,37
+
+const snakeCaseToCamelCase = str => str.replace(/_([a-z])/g, (_, letter) => letter.toUpperCase());
+const pipe = (...fns) => x => fns.reduce((v, f) => f(v), x);
